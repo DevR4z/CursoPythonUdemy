@@ -30,9 +30,9 @@ while True:
         letras_acertadas += letra_digitada
 
     palavra_formada = ''
-    for letra_secreta in palavra_secreta.lower():
-        if letra_secreta in letras_acertadas:
-            palavra_formada += letra_secreta
+    for letra in palavra_secreta.lower():
+        if letra in letras_acertadas:
+            palavra_formada += letra
         else:
             palavra_formada += '*'
     print('Palavra formada:', palavra_formada)
