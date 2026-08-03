@@ -2,7 +2,7 @@ class Caneta:
     def __init__(self, cor):
         self.cor_tinta = cor
 
-    @property
+    @property #property retorna / setter "faz a fução"
     def cor(self):
         print('@Property')
         return self.cor_tinta
