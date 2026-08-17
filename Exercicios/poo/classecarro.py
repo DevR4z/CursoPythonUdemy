@@ -20,22 +20,26 @@ class Carro:
     def fabricante(self, fab):
         self._fabricante = fab
 
+
 class Motor:
     def __init__(self, nome):
         self.nome = nome
+
 
 class Fabricante:
     def __init__(self, nome):
         self.nome = nome
 
-#Fabricantes
+# Fabricantes
+
+
 volkswagen = Fabricante('Volkswagen')
 chevrolet = Fabricante('Chevrolet')
 fiat = Fabricante('Fiat')
 honda = Fabricante('Honda')
 toyota = Fabricante('Toyota')
 
-#Motores
+# Motores
 motor1_0 = Motor('1.0')
 motor1_6 = Motor('1.6')
 motor2_0 = Motor('2.0')
